@@ -1,0 +1,19 @@
+.left-right {
+  font-size: 0px;
+  height: 100%;
+}
+
+.left-box, .right-box {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px
+}
+
+.left-box {
+  width: 240px;
+  height: 100%;
+}
+.right-box {
+  width: calc(100% - 240px);
+  height: 100%
+}
