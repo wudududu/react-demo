@@ -6,7 +6,9 @@ import Map from '../../static/mapdemo.js'
 
 import LefrRight from '../../components/left-right/index'
 
-import { getLine } from '../../apis/sailTrail.js'
+import { getLine } from '../../apis/sailTrail'
+
+// import '../../utils/request'
 
 const left = <div className={style.tree}><p>机构树</p></div>
 const right = <div id={style['map-box']}></div>
